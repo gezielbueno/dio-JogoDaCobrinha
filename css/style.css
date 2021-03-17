@@ -1,0 +1,63 @@
+#container{
+	/*width: 650px;
+	height: 450px;
+	margin:0 auto; */
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+	padding: 10px;        
+	text-align:left; /* "remédio" para o hack do IE */ 	
+	box-shadow: 0px 0px 50px #262626;
+    overflow: hidden;
+    border-radius: 10px;
+}
+h1{
+	text-align: center;
+	font-size: 60px;
+}
+
+p{
+	color: blue;
+	font-weight: bold;
+}
+span{
+	color: red;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#canvas{
+	background-color: #FFFFFF;
+	margin : 0px;
+	padding: 0px;
+	/*border: 2px solid #000000;*/
+	box-shadow: 0px 0px 10px gray;
+}
+#divCanvas, #divMenu{
+	float: center;
+	text-align: center;
+	padding: 20px;
+}
+#divMenu{
+	background-color: #FFFFFF;
+}
+#divCanvas{
+	margin: 20px;
+}
+#divMenu p{
+	text-align: center;
+}
+p#restart{
+	cursor: pointer;
+	text-align: center;
+	border: 1px solid;
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.8);
+	padding: 10px;
+}
+
+p#restart:hover{
+	border: 1px solid rgb(200,0,0);
+	box-shadow: 0px 0px 10px rgba(100,0,0,0.5);
+	color: rgb(200,0,0);
+}
